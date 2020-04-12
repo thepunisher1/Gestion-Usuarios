@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de registro</title>    
+    </head>
+    <body>
+        <h1> Formulario de registro usuarios nuevos </h1>
+        <p1><strong>Diligencie el formulario para crear un nuevo usuario.</strong><hr/></p1>
+        <form>
+            <div>Seleccione el tipo de usuario:</br>
+                <select>
+                    <option>Administrador</option>
+                    <option>Instructor</option>
+                    <option>Aprendiz</option>
+                    
+                </select>
+            
+            </div>
+            <div>Seleccione el tipo de documento:</br>
+                <select>
+                    <option>Cedula de ciudadania</option>
+                    <option>Tarjeta de identidad</option>
+                    <option>Cedula de extranjeria</option>
+                    <option>Pasaporte</option>
+                </select>
+            </div></br>
+            <b>Numero de documento</b></br><input type="text" id="Identificación" maxlength="15"></br>
+            <b>Clave de ingreso:</b></br><input type="password" id="Contraseña" maxlength="15"/></br>
+            <b>Primer Nombre:</b></br><input type= "text" id="PNombre" maxlength="15"/> </br>
+            <b>Segundo Nombre:</b></br><input type= "text" id="SNombre" maxlength="15"/></br>
+            <b>Primer Apellido:</b></br><input type="text" id="PApellido" maxlength="15"/></br>
+            <b>Segundo Apellido:</b></br><input type="text" id="SApellido" maxlength="15"/></br>
+            <div>Seleccione Rh y Grupo Sanguineo:</br>
+                <select>
+                    <option>O+</option>
+                    <option>O-</option>
+                    <option>A+</option>
+                    <option>A-</option>
+                    <option>B+</option>
+                    <option>B-</option>
+                    <option>AB+</option>
+                    <option>AB-</option>
+                </select>
+            </div></br>
+            <div>Seleccione Genero:</br>
+                <select>
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                </select></br>
+            </div>
+            <b>Email</b></br><input type="text" id="Email" maxlength="30"/></br>
+            <b>Numero telefonico:</b></br><input type="text" id="NTelefonico" maxlength="10"/></br>
+            <b>Fecha de nacimiento:</b></br><input type="radio" id="FNacimiento"/></br></b>
+            <input type= "submit" id= "Enviar"/>
+        </form>
+    </body>
+</html>
